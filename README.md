@@ -53,5 +53,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Shamanth J** - [Your Email/LinkedIn]
+**Shamanth J** - [jshamanthaiml2026@gmail.com] 
 Project Link: [https://github.com/SHAMANTH-J/GramaYatri](https://github.com/SHAMANTH-J/GramaYatri)
+MIND MATRIX MAIN PROJECT 
