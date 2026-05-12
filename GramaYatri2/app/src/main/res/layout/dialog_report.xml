@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report an Issue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgReportType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbLate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Late Arrival"
+            android:padding="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rbEmergency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medical Emergency"
+            android:padding="8dp"/>
+
+        <RadioButton
+            android:id="@+id/rbAccident"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accident / Breakdown"
+            android:padding="8dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etReportDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Additional details (optional)"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_input_field"
+        android:padding="12dp"
+        android:minLines="3"
+        android:gravity="top"/>
+
+</LinearLayout>

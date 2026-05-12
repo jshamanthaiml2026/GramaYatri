@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- This is a placeholder. Please replace this file with your actual PNG image named grama_yatri_logo.png -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M100,100m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,80 L130,80 L130,120 L70,120 Z M80,90 L120,90 L120,110 L80,110 Z" />
+</vector>

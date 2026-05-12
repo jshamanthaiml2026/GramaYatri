@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Timeline Line -->
+    <View android:id="@+id/viewLine" android:layout_width="4dp" android:layout_height="80dp" android:background="#BDBDBD" android:layout_marginStart="24dp" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Timeline Dot -->
+    <View android:id="@+id/viewDot" android:layout_width="16dp" android:layout_height="16dp" android:background="@drawable/ic_launcher_background" android:backgroundTint="#4CAF50" app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="18dp"/>
+
+    <TextView android:id="@+id/tvVillageName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Village Name" android:textSize="18sp" android:textStyle="bold" android:layout_marginStart="16dp" app:layout_constraintTop_toTopOf="@id/viewDot" app:layout_constraintBottom_toBottomOf="@id/viewDot" app:layout_constraintStart_toEndOf="@id/viewLine"/>
+
+    <TextView android:id="@+id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Waiting for ping..." android:textSize="14sp" android:textColor="#757575" app:layout_constraintTop_toBottomOf="@id/tvVillageName" app:layout_constraintStart_toStartOf="@id/tvVillageName"/>
+
+    <Button android:id="@+id/btnPing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ping Bus Here" android:textSize="12sp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0D47A1</color> <!-- Deep Blue -->
+    <color name="primary_dark">#002171</color>
+    <color name="accent">#FFD600</color>
+    <color name="bg_light_blue">#E3F2FD</color> <!-- Light Blue Background -->
+    <color name="text_main">#000000</color> <!-- Pure black for visibility -->
+    <color name="text_secondary">#424242</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="route_line">#9E9E9E</color>
+    <color name="stop_dot">#2E7D32</color>
+</resources>

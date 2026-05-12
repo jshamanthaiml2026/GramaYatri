@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "432548246918",
+    "project_id": "gramayatri-a464c",
+    "storage_bucket": "gramayatri-a464c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432548246918:android:1efb0f4fdedd1a17d82807",
+        "android_client_info": {
+          "package_name": "com.example.gramayatri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjiEGwYQtAkOSrebQ1axOpAsi4xfyg4gw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

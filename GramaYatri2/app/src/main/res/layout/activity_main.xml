@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <TextView android:id="@+id/tvHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Village Bus Route: 42A" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="24dp" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView android:id="@+id/tvCancellationAlert" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:background="#FFEBEB" android:textColor="#D32F2F" android:padding="12dp" android:textStyle="bold" android:visibility="gone" app:layout_constraintTop_toBottomOf="@id/tvHeader"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRoute"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tvCancellationAlert"
+        app:layout_constraintBottom_toTopOf="@id/btnReportCancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button android:id="@+id/btnReportCancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="Report Bus Cancelled" android:backgroundTint="#D32F2F" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
